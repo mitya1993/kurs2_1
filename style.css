@@ -1,0 +1,552 @@
+@font-face{
+	font-family: Sabelia;
+	font-family: Tahoma;
+	font-family: Slimamif;
+	font-family: Lato;
+	src:url(fonts/Lato.ttf);
+	src:url(fonts/Sabelia.ttf);
+	src:url(fonts/Tahoma.ttf);
+	src:url(fonts/Slimamif.ttf);
+}
+/* стилизация хедера */
+.header{
+	width: 100%;
+	padding:47px 0 67px 0;
+	background: rgb(74,69,75);
+}
+.header .spisok li{
+	display: inline;
+	font-family: Tahoma;
+	margin: 10px;
+	color: white
+}
+.header .spisok{
+	margin-top: 22px;
+}
+/* стилизация section-1 */
+.section-1{
+	width: 100%;
+	padding: 40px 0 33px 0;
+	background: rgb(74,69,75);
+}
+.section-1 .timer{
+	padding: 22px 0 22px 0;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: rgb(156,208,64);
+}
+/* стилизация section-2 */
+.section-2{
+	background-image: url(image/image-section-2/background-section-2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 0 68px 0;
+
+}
+.section-2 input{
+	width: 372px;
+	height: 52px;
+	font-size: 18px;
+	padding: 10px 0 0 10px;
+	border-color: rgb(191,191,191);
+	border-radius: 20px;
+	border-width: 2px;
+}
+.section-2 input:hover{
+	border-color: rgb(154,201,63);
+}
+
+.fieldset{
+	background: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.fieldset button{
+	width: 372px;
+	height: 52px;
+	font-size: 18px;
+	color: white;
+	background: rgb(154,201,63);
+	border-radius: 20px;
+}
+.fieldset p{
+	font-family: Tahoma;
+	font-size: 18px;
+	color: rgb(137,137,137);
+	text-align:center;
+	margin-top: 19px;
+}
+.fieldset h1{
+	font-weight: bolder;
+}
+.section-2 .p1, .p2, .p3{
+	font-size: 14px;
+	font-family: Tahoma;
+	color: rgb(137,137,137);
+}
+}
+.section-2 img{
+	margin-top: 100px;
+}
+.section-2 .h1{
+	font-size: 50px;
+	font-family: Tahoma;
+	font-weight: bolder;
+	margin-top: 48px;
+}
+/* стилизация section-3 */
+.section-3{
+	width: 100%;
+	padding: 39px 0 42px 0;
+	background: white;
+}
+.section-3 h1{
+	font-size: 40px;
+	font-family: Tahoma;
+	font-weight: bolder;
+}
+.section-3 p{
+	font-size: 14px;
+	font-family: Tahoma;
+	color: rgb(137,137,137);
+}
+/* стилизация section-acordion */
+.acordion{
+	width: 100%;
+	padding:56px 0 40px 0;
+	background: white;
+}
+.acordion .p-accordion{
+	margin-top: 40px;
+}
+/* стилизация section-4 */
+.section-4{
+	background-image: url(image/image-section-4/section-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 172px;
+
+}
+.section-4 h1{
+	margin-top: 200px;
+	text-align: right;
+	font-weight: bolder;
+	font-family: Tahoma;
+	color: white;
+	font-size: 50px;
+}
+.section-4 p{
+	text-align: right;
+	margin-top: 33px;
+	color: rgb(207,208,208);
+	font-family: Tahoma;
+	font-size: 16px;
+}
+.section-4 button{
+	width: 200px;
+	height: 55px;
+	border-radius: 20px;
+	color: white;
+	font-family: Tahoma;
+	background: rgb(144,210,61);
+	margin-top: 30px;
+}
+/* стилизация section-5 */
+.section-5{
+	background-image: url(image/image-section-5/image-section-5.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 144px 0 177px 0;
+}
+.section-5 .blok5-1{
+	width: 100%;
+	padding-top: 25px;
+	background: rgb(144,210,61);
+	border-radius: 10px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.section-5 .blok5-1:hover{
+	background: rgb(70,190,11);
+}
+.section-5 .blok5-1 h1{
+	margin-left: 33px;
+	font-size: 50px;
+	color: white;
+}
+.section-5 .blok5-1 p{
+	margin-left: 33px;
+	font-size: 18px;
+	color: white;
+}
+.section-5 .spisok-5 li{
+	display: inline;
+	list-style: none;
+}
+.section-5 .image-peace{
+	width: 100%;
+	padding-top: 25px;
+	min-height: 295px;
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+.section-6{
+	width: 100%;
+	background-image: url(image/image-section-6/image-section-6.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 122px;
+}
+/* стилизация section-7 */
+.section-7{
+	width: 100%;
+	background-image: url(image/image-section-7/image-section-7.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:46px 0 140px 0 !important;
+}
+.section-7 h2{
+	font-size: 50px !important;
+	font-weight: bolder;
+	color: white;
+}
+
+.section-7 p{
+	font-size: 14px;
+	color: rgb(207,208,208);
+	font-family: Tahoma;
+	margin-top: 10px;
+}
+.section-7 img{
+	margin-top: 20px;
+}
+.section-7 button{
+	width: 200px;
+	height:55px;
+	border-radius: 10px;
+	background: rgb(144,210,61); 
+	color: white;
+	margin-top: 64px;
+}
+/* стилизация section-7 */
+.section-8{
+	width: 100%;
+	background-image: url(image/image-section-8/image-section-8.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:116px 0 94px 0;
+}
+.section-8 h1{
+	font-size: 50px;
+	font-weight: bolder;
+	font-family: Tahoma;
+}
+.section-8 p{
+	font-size: 14px;
+	font-family: Tahoma;
+	color: rgb(153,153,153);
+	margin-top: 35px;
+}
+.section-8 .blok-8-1{
+	display: inline;
+	float: left;
+	width: 602px;
+	height: 418px;
+	background: rgb(61,110,210);
+}
+.section-8 .blok-8-2{
+	float: right;
+	display: inline;
+	width: 568px;
+	height: 418px;
+	background: rgb(144,210,61);
+	
+}
+.section-8 .blok-8-3{
+	display: inline;
+	float: left;
+	width: 530px;
+	height: 367px;
+	background: rgb(255,157,0);
+}
+.section-8 .blok-8-4{
+	display: inline;
+	float: right;
+	width: 640px;
+	height: 367px;
+	background: rgb(224,101,42);
+}
+.section-8 .blok-8{
+	margin-top: 90px;
+}
+.section-8 .blok-8-1:hover{
+	background: rgb(61,110,255);
+}
+.section-8 .blok-8-2:hover{
+	background: rgb(144,210,110);
+}
+.section-8 .blok-8-3:hover{
+	background: rgb(255,157,100);
+}
+.section-8 .blok-8-4:hover{
+	background: rgb(224,101,100);
+}
+.section-8 button{
+	width: 200px;
+	height: 55px;
+	border-radius: 10px;
+	background: rgb(55,55,55);
+	color:white;
+	margin-top:100px;
+}
+/*стилизация section-9*/
+.section-9 {
+	background-image: url(image/image-section-9/image-section-9.png);
+	padding-top: 63px;
+	padding-bottom: 63px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.section-9 .section-9-1{
+	background-image: url(image/image-section-9/section.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 57px;
+	padding-bottom: 63px;
+}
+.section-9 .section-9-1 p{
+	margin-top: 47px;
+	font-size: 18px;
+}
+.section-9 .section-9-1 button{
+	width: 200px;
+	height: 70px;
+	border-radius: 20px;
+	background: rgb(144,210,61);
+	margin-top: 20px;
+}
+.section-9 .section-9-1 a{
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}
+.section-9 .section-9-1 input{
+	font-size: 18px;
+	padding:10px 0 10px 10px;
+	outline: none;
+	width: 400px;
+	height: 50px;
+	border-color: rgb(191,191,191);
+	border-radius: 20px;
+}
+.section-9 .section-9-1 input:hover{
+	border-color: rgb(154,201,63);
+}
+.section-9 .section-9-1 textarea{
+	outline: none;
+	padding:10px 0 0 10px;
+	font-size: 18px;
+	width: 400px;
+	height: 252px;
+	border-color: rgb(191,191,191);
+	border-radius: 20px;
+	margin-top: 20px;
+	border-width:2px;
+}
+.section-9 .section-9-1 textarea:hover{
+	border-color: rgb(154,201,63);
+}
+.section-9 form .button-2{
+	width: 400px;
+	height: 50px;
+	border-radius: 20px;
+	background: rgb(55,55,55);
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+/* стилизация футер */
+.footer{
+	width: 100%;
+	padding-top: 58px;
+	padding-bottom: 40px;
+	background: rgb(144,210,61);
+}
+.footer .spisok-footer li{
+	display: inline;
+	list-style: none;
+	margin: 5px;
+}
+.footer h1{
+	font-size: 14px;
+	color: rgb(225,243,203);
+	font-family: Tahoma;
+}
+.footer p{
+	font-size: 14px;
+	color: rgb(225,243,203);
+	font-family: Tahoma;
+}
+.footer a {
+	text-decoration: none;
+}.footer{
+	width: 100%;
+	padding-top: 58px;
+	padding-bottom: 40px;
+	background: rgb(144,210,61);
+}
+.footer .spisok-footer li{
+	display: inline;
+	list-style: none;
+	margin: 5px;
+}
+.footer h1{
+	font-size: 14px;
+	color: rgb(225,243,203);
+	font-family: Tahoma;
+}
+.footer p{
+	font-size: 14px;
+	color: rgb(225,243,203);
+	font-family: Tahoma;
+}
+.footer a {
+	text-decoration: none;
+}
+/*медиа запросыы*/
+@media(max-width: 1024px){
+	.header img{
+		display: none;
+
+	}
+	.spisok li{
+		font-weight: bolder;
+		font-size: 14px;
+	}
+	.section-2 img{
+		display: none;
+	}
+	.section-2{
+		background-image: none;
+	}
+	.section-2 .h1{
+		text-align: center;
+		color: black;
+	}
+	.section-2 .register{
+		margin-top: 40px;
+	}
+	.section-2 form , button{
+		padding: 30px;
+		margin:10px;
+	}
+	.section-2 .fieldset input, button{
+		width: 100%;
+	}
+	.section-4{
+		padding-bottom: 70px;
+	}
+	.section-4 img{
+		margin-top: 50px;
+	}
+	.section-4 h1{
+		margin-top: 50px;
+		text-align: center;
+		font-size: 30px;
+
+	}
+	.section-4 p{
+		text-align: justify;
+	}
+	.section-4 button{
+		display: block;
+		margin: 0 auto;
+	}
+	.section-5{
+		padding: 10px 0 40px 0;
+	}
+	.section-5 .h1{
+		text-align: center;
+		font-weight: bolder;
+	}
+	.section-5 p{
+		font-family: Tahoma;
+	}
+	.section-5 .blok5-1{
+		padding-bottom: 10px
+	}
+	.section-5 .blok5-1 h1{
+		font-size: 30px;
+	}
+	.section-8{
+		padding: 58px 0 47px 0;
+	}
+	.section-8 h1, p{
+		text-align: justify;
+	}
+	.section-8 p{
+		font-size: 20;
+	}
+	.section-8 .blok-8 .blok-8-1, .blok-8 .blok-8-2, .blok-8 .blok-8-3, .blok-8 .blok-8-4{
+		width: 100%;
+	}
+	.section-9-1 p{
+		padding: 0 10px 0 10px;
+	}
+}
+@media(max-width: 640px){
+.section-1{
+	padding:0 0 10px 0;
+}
+.header .spisok{
+	font-size: 14px;
+}
+.section-2{
+	padding: 0 0 60px 0;
+}
+.section-2 .h1{
+	font-size: 30px;
+}
+.section-2 .register input{
+	margin: 10px !important;
+}
+.section-2 .register{
+	padding: 0 10px 0 10px; 
+}
+.section-5{
+}
+.section-5 .blok5-1{
+	width: 50%;
+	margin-left: 144px;
+	padding: 30px 30px 30px 30px; 
+}
+.section-5 .image-peace{
+	display: none;
+}
+ .blok-8 .blok-8-1, .blok-8 .blok-8-2, .blok-8 .blok-8-3, .blok-8 .blok-8-4{
+width: 100%;
+height: 100px;
+}
+.section-8 .blok-8{
+	width: 100%;
+	height: 100px;
+}
+.section-9 form{
+	padding: 10px 20px 0 90px;
+}
+.section-9 button{
+	width: 400px;
+	height: 50px;
+	padding: 20px 0 20px 0;
+}
+.section-9 .button-2{
+	padding: 20px 0 20px 0;
+}
+.footer {
+	padding: 10px 100px 0 100px;
+}
+.footer p{
+	margin-left: 50px;
+}
+}
